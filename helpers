@@ -1,6 +1,6 @@
 set -xeo pipefail
 
-VERSION=7.16.2
+VERSION=7.17.2
 
 if ! which qemu-system-aarch64 &>/dev/null; then
     if which apt &>/dev/null; then
